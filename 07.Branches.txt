@@ -1,0 +1,5 @@
+-  Criação de branches
+	- git branch + nome que deseja dar a ela (comando para criar uma nova branch)
+	- git branch (comando para ver quantas branch tem no repositório)
+	- git checkout + nome da branch (comando para mudar de branch)
+	- git checkout master (comando para voltar a branch master)
