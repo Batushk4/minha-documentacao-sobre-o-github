@@ -1,0 +1,4 @@
+- realizar uma junção de branch na master do tipo fast-forward
+	- git merge + nome da branch (comando utilizado para juntar uma branch com a master)
+	- git log --graph (comando para mostrar a linha do tempo dos commits de uma maneira gráfica(ou quase isso))
+	- git branch -d + nome da branch (comando para excluir a branch)
