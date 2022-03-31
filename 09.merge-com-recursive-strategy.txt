@@ -1,0 +1,4 @@
+
+- realizar junção de branches com recursive strategy
+	- git checkout -b + nome da brach (comando para criar uma nova branch e entrar logo nela sem precisar dar um comando de checkout depois)
+	- git log --graph --oneline (comando para mostrar a linha do tempo dos commits em uma linda numa maneira gráfica)
