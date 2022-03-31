@@ -1,0 +1,65 @@
+## git stash
+	- git stash (comando para guardar os arquivos que não estão pronto para commit e que por ventura cê teve que parar de trabalhar nele para trabalhar em outra coisa)
+	- git stash apply (comando para trazer de volta os arquivos do trabalho anterior)
+
+- Resolvendo conflitos em stash e adicionando mensagens 
+	- git stash sabe "mensagem que deseja enviar"
+	- git stash list (comando para listar)
+
+	- git remote add origin(apelido para o repositório) +link url do repositório (comando para conectar o repositório com o projeto local)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
