@@ -1,0 +1,9 @@
+- Comandos git init, git add, commit e status
+	
+    - git init (comando para inicializar o versionamento de código, ele é o primeiro comando a ser feito)
+	
+    - git status (comando para verificar o status do projeto e deve ser feito periodicamente para verificar quais arquivos desejará ser adicionado para o commit)
+	
+    - git add 'nome do arquivo' ou * para adicionar com tudo (comando é feito para adicionar arquivos a área de transferência para o commit)
+	
+    - git commit -m '' (comando feito para versionar o código, nesse commit enviamos uma mensagem entre '' descrevendo o que foi feito/alterado. Faça um commit a cada momento importante do projeto para gerar um contexto no final no histórico)
