@@ -1,0 +1,3 @@
+
+- Enviando arquivos ao GitHub com o comando push 
+	- git push (comando para enviar os arquivos para o GitHub. Caso dê erro, configure usuário e tente novamente)
