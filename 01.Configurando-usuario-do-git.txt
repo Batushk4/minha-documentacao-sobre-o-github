@@ -1,0 +1,5 @@
+- configurar usuário:
+	- git config --global user.name (nome da pessoa)
+	- git config --global user.email (email da pessoa)
+	- git config --global core.editor (nome do editor)	
+	- git config --global -l (listar todas as configurações que cê fez)
