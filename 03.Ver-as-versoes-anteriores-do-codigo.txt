@@ -1,0 +1,4 @@
+- Ver as versões anteriores do código
+	- git log (mostra toda as versões e commit, ou seja, mostra o histórico)
+	- git checkout 'código log do commit' (comando que faz você olhar o estado anterior do código sem perder o código atual)
+
