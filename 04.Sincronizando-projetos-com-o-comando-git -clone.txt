@@ -1,0 +1,3 @@
+
+- Sincronizando projetos com o comando clone
+	- git clone + o link do projeto (comando que traz o repositório para a sua máquina sem depender de baixar arquivos do github)
