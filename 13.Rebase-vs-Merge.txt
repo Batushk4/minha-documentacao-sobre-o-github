@@ -1,0 +1,30 @@
+- Rebase vs Merge 
+	- Consegue modificar o histórico do projeto (Project History). Com o comando Rebase, a gente consegue alterar ordem de commits, unir commits em um só, modificar a mensagem dos commits, ou seja, tudo o que tem a ver com os commits do projeto a gente conselhe alterar usando o comando rebase. Não se usa o commit para fazer backups do projeto, a gente tem outras ferramentas pra isso, mas os commits permitem contar uma história: a história do projeto.    
+	- Quando a gente compara o comando rebase com o comando merge, a gente diz que servem para integrar alterações de uma branch em outra, mas existem vantagens e desvantagens em usar rebase ou merge. Quando a gente efetua um merge de uma branch, a gente não destrói ela, a gente diz que é um comando não destrutivo, porque o comando merge não altera/destrói a linha do tempo de uma branch. A merge pode poluir a linha do tempo de uma branch. Rebase permite manter um histórico limpo.  
+
+
+- Controle de branch com rebase
+	- CUIDADO: nunca faça um rebase quando o repositório for público e estiver publicado no github já.
+
+- Passo a passo de como usar o rebase: 
+	1. git checkout +nome da branch de onde você alterou/criou as coisas (acessar a branch paralela)
+	2. git rebase master (faz o rebase nela)
+	3. git checkout master (volta para a master)
+	4. git merge +nome da branch que fez o rebase (fará o merge com a branch que cê fez o rebase, nesse processo a gente remove todos os commits de merge e deixa tudo mais limpo)
+
+
+- Casos de conflito com rebase
+	- vai para a branch que deseja fazer o rebase
+		- git rebase master
+	- veja qual alteração que irá ficar e execute: 
+		- git add .
+	- volte para a master 
+		- git checkou master
+	- faça o merge com a branch que fez o rebase:
+		- git merge +nome da branch
+
+- rebase iterativo
+	- trabalhar apenas com branchs de projetos locais que não estão sendo compartilhados em outros lugares.
+	- Passo a passo de como usar o rebase iterativo: 
+	1. git log --oneline --graph
+	2. git rebase -i +hash pai que identifica onde deseja alterar (abrirá o bloco de nota e dentro dele poderá fazer a alteração que desejar)
