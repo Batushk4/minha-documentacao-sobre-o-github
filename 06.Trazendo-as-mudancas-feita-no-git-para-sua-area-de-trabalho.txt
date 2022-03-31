@@ -1,0 +1,2 @@
+- Trazendo as mudanças feita no git pra sua área local
+	- git pull (comando feito para atualizar as mudanças feita no github)
