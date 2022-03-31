@@ -1,0 +1,19 @@
+
+- GitHub ISSUES 
+	- Rastreio de bugs
+	- Sugestão de ferramentas
+	- Acompanhar histórico de alterações
+	- Documentação dos passo-a-passo na resolução de problemas
+	- Pode ser usado para criar lembretes das coisas que o projeto precisa e deve ser feito
+
+- ISSUES e branches remotas
+	- git commit -m "mensagem #+número da identificação da issue" (comando para enviar o commit direto pra issue que está sendo feita numa nova branch)
+	- git push origin nome-da-branch (comando para enviar uma nova branch e suas alterações pro github)
+
+- Gerenciando ISSUES com github
+	- git commit -m "comentário sobre o commit + closes #+identificação da issue" (comando feito para sinalizar que a issue está feita e finalizada, portanto estará fechada)
+	
+- Labels em ISSUES
+	- label seria uma forma de categorizar qual é o tipo da issue
+
+- Milestones: recurso do GitHub para agrupar issues com as mesmas categorizações e ver o progresso delas, pode-se até colocar uma data limite para finalizar as issues daquele Milestones. 
