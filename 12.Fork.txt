@@ -1,0 +1,14 @@
+- Fork e sincronia de repositório 
+### Legendas ###
+# Repositório principal (upstream)
+# Repositório cópia (cópia)
+# Repositório local (caixa roxa)
+
+- Fork -> você pode fazer um clone de um repositório público qualquer direto para o seu repositório. Isso lhe permite experimentar certas alterações nesse projeto porque quando se faz um fork, você tem acesso como se o projeto fosse teu. O uso do fork também está relacionado a colaborar com projetos de outras pessoas (parte do processo). 
+
+- Depois de fazer o fork para o seu repositório, use: 
+	- git clone +endereço do repositório (comando para fazer um clone do repositório para o repositório local)
+	- git remote add upstream +endereço do repositório (comando para adicionar o repositório principal do fork. sincronizar o repositório principal para o nosso fork)
+	- git remote -v (para saber quantos repositório fazem parte do projeto)
+	- git pull upstream master (comando para trazer todas atualizações feito no repositório principal na branch master)
+	- git push (comando para enviar as alterações feito no seu local para o repositório do fork)
