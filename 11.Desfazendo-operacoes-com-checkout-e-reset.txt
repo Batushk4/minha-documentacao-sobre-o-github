@@ -1,0 +1,8 @@
+
+- Desfazendo operações com checkout e reset 
+	- CUIDADO: se você já tem um projeto publicado no GitHub, não use esses comandos por conta de que pode rejudicar o projeto.
+	- git checkou --file name (comando para voltar a versão anterior do arquivo commitado, porém todas as suas modificações serão excluídas)
+	- git reset head +nome do arquivo (ele é removido do commit e volta a ser um arquivo apenas comum antes de ser commitado)
+	- git log --decorate --oneline (comando que mostra onde está a head em apenas uma linha)
+	- git reset head^ (comando para excluir o commit anterior, quanto mais '^' após a palavra 'head', mais pro commit anterior você voltará)
+	- git rm --cached +nome do arquivo (comando para o git deixar de rastrear as alterações do arquivo a partir daquele momento)
