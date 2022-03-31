@@ -1,0 +1,4 @@
+- Limpando a bagunça: 
+	1. git branch -b
+	2. git branch -D +nome da branch que deseja deletar (não se pode deletar a branch que você estiver, por isso mude para a branch master)
+	3. git push -d origin +nome da branch para excluir (comando para excluir as branch do repositório via local)
