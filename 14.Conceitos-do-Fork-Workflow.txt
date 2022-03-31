@@ -1,0 +1,13 @@
+- Conceitos do Fork Workflow
+	- Pull Request 
+		1. Enviar alterações para serem incorporadas à um projeto
+		2. Discussões sobre o código
+		3. Integrar código revisado ao projeto
+	
+	- Revisando o Fluxo
+		1. Fork 
+		2. git clone
+		3. git checkout -b, git add, git commit
+		4. git push
+		5. Pull request
+		6. git pull upstream, git push
